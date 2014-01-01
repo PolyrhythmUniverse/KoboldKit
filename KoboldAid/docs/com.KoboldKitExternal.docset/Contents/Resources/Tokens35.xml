@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/OALAction+.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/OALAction()</TokenIdentifier>
+			<Abstract type="html">\cond</Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+            
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALAction/setTarget:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) id target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALAction/target</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) id target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OALAction/target</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) id target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALAction/setDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) float duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALAction/duration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) float duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OALAction/duration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) float duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALAction/setRunning:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) bool running</Declaration>
+			
+			
+			<Anchor>//api/name/running</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALAction/running</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) bool running</Declaration>
+			
+			
+			<Anchor>//api/name/running</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OALAction/running</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) bool running</Declaration>
+			
+			
+			<Anchor>//api/name/running</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALAction/setRunningInManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) bool runningInManager</Declaration>
+			
+			
+			<Anchor>//api/name/runningInManager</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALAction/runningInManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) bool runningInManager</Declaration>
+			
+			
+			<Anchor>//api/name/runningInManager</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OALAction/runningInManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAction+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) bool runningInManager</Declaration>
+			
+			
+			<Anchor>//api/name/runningInManager</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

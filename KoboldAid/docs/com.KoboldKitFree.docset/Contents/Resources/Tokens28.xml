@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KKRemoveOnNotificationBehavior.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KKRemoveOnNotificationBehavior</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKRemoveOnNotificationBehavior.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKRemoveOnNotificationBehavior/setNotification:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKRemoveOnNotificationBehavior.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, copy) NSString *notification</Declaration>
+			
+			
+			<Anchor>//api/name/notification</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKRemoveOnNotificationBehavior/notification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKRemoveOnNotificationBehavior.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, copy) NSString *notification</Declaration>
+			
+			
+			<Anchor>//api/name/notification</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KKRemoveOnNotificationBehavior/notification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKRemoveOnNotificationBehavior.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, copy) NSString *notification</Declaration>
+			
+			
+			<Anchor>//api/name/notification</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

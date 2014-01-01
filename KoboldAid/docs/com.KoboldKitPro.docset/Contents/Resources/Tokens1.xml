@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KKContactNotificationNode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KKContactNotificationNode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKContactNotificationNode/setNotification:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, copy) NSString *notification</Declaration>
+			
+			
+			<Anchor>//api/name/notification</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKContactNotificationNode/notification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, copy) NSString *notification</Declaration>
+			
+			
+			<Anchor>//api/name/notification</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KKContactNotificationNode/notification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, copy) NSString *notification</Declaration>
+			
+			
+			<Anchor>//api/name/notification</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKContactNotificationNode/setTriggerType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (atomic) NSString *triggerType</Declaration>
+			
+			
+			<Anchor>//api/name/triggerType</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKContactNotificationNode/triggerType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (atomic) NSString *triggerType</Declaration>
+			
+			
+			<Anchor>//api/name/triggerType</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KKContactNotificationNode/triggerType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (atomic) NSString *triggerType</Declaration>
+			
+			
+			<Anchor>//api/name/triggerType</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKContactNotificationNode/setInfo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableDictionary *info</Declaration>
+			
+			
+			<Anchor>//api/name/info</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKContactNotificationNode/info</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableDictionary *info</Declaration>
+			
+			
+			<Anchor>//api/name/info</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KKContactNotificationNode/info</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableDictionary *info</Declaration>
+			
+			
+			<Anchor>//api/name/info</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKContactNotificationNode/setOnlyOnce:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (atomic) BOOL onlyOnce</Declaration>
+			
+			
+			<Anchor>//api/name/onlyOnce</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKContactNotificationNode/onlyOnce</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (atomic) BOOL onlyOnce</Declaration>
+			
+			
+			<Anchor>//api/name/onlyOnce</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KKContactNotificationNode/onlyOnce</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>@property (atomic) BOOL onlyOnce</Declaration>
+			
+			
+			<Anchor>//api/name/onlyOnce</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKContactNotificationNode/postNotification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKContactNotificationNode.h</DeclaredIn>
+			
+			<Declaration>- (void)postNotification</Declaration>
+			
+			
+			<Anchor>//api/name/postNotification</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

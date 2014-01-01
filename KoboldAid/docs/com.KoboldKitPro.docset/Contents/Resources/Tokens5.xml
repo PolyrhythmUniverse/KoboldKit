@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KKItemCollectorBehavior.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KKItemCollectorBehavior</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKItemCollectorBehavior.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKItemCollectorBehavior/didPickUpItem:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKItemCollectorBehavior.h</DeclaredIn>
+			
+			<Declaration>- (void)didPickUpItem:(KKPickupItemBehavior *)itemBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/didPickUpItem:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

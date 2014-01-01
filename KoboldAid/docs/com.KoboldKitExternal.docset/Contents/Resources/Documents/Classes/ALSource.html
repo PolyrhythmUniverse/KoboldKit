@@ -1,0 +1,1481 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>ALSource Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">KoboldKitExternal </a></h1>
+				<a id="developerHome" href="../index.html">Kobold Tech</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">ALSource Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/buffer">&nbsp;&nbsp;&nbsp;&nbsp;buffer</option>
+	
+	<option value="//api/name/buffersProcessed">&nbsp;&nbsp;&nbsp;&nbsp;buffersProcessed</option>
+	
+	<option value="//api/name/buffersQueued">&nbsp;&nbsp;&nbsp;&nbsp;buffersQueued</option>
+	
+	<option value="//api/name/context">&nbsp;&nbsp;&nbsp;&nbsp;context</option>
+	
+	<option value="//api/name/offsetInBytes">&nbsp;&nbsp;&nbsp;&nbsp;offsetInBytes</option>
+	
+	<option value="//api/name/offsetInSamples">&nbsp;&nbsp;&nbsp;&nbsp;offsetInSamples</option>
+	
+	<option value="//api/name/offsetInSeconds">&nbsp;&nbsp;&nbsp;&nbsp;offsetInSeconds</option>
+	
+	<option value="//api/name/sourceId">&nbsp;&nbsp;&nbsp;&nbsp;sourceId</option>
+	
+	<option value="//api/name/state">&nbsp;&nbsp;&nbsp;&nbsp;state</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/source">&nbsp;&nbsp;&nbsp;&nbsp;+ source</option>
+	
+	<option value="//api/name/sourceOnContext:">&nbsp;&nbsp;&nbsp;&nbsp;+ sourceOnContext:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/initOnContext:">&nbsp;&nbsp;&nbsp;&nbsp;- initOnContext:</option>
+	
+	<option value="//api/name/play">&nbsp;&nbsp;&nbsp;&nbsp;- play</option>
+	
+	<option value="//api/name/queueBuffer:">&nbsp;&nbsp;&nbsp;&nbsp;- queueBuffer:</option>
+	
+	<option value="//api/name/queueBuffer:repeats:">&nbsp;&nbsp;&nbsp;&nbsp;- queueBuffer:repeats:</option>
+	
+	<option value="//api/name/queueBuffers:">&nbsp;&nbsp;&nbsp;&nbsp;- queueBuffers:</option>
+	
+	<option value="//api/name/queueBuffers:repeats:">&nbsp;&nbsp;&nbsp;&nbsp;- queueBuffers:repeats:</option>
+	
+	<option value="//api/name/registerNotification:callback:userData:">&nbsp;&nbsp;&nbsp;&nbsp;- registerNotification:callback:userData:</option>
+	
+	<option value="//api/name/unqueueBuffer:">&nbsp;&nbsp;&nbsp;&nbsp;- unqueueBuffer:</option>
+	
+	<option value="//api/name/unqueueBuffers:">&nbsp;&nbsp;&nbsp;&nbsp;- unqueueBuffers:</option>
+	
+	<option value="//api/name/unregisterAllNotifications">&nbsp;&nbsp;&nbsp;&nbsp;- unregisterAllNotifications</option>
+	
+	<option value="//api/name/unregisterNotification:">&nbsp;&nbsp;&nbsp;&nbsp;- unregisterNotification:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buffer">buffer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buffersProcessed">buffersProcessed</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buffersQueued">buffersQueued</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/context">context</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/offsetInBytes">offsetInBytes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/offsetInSamples">offsetInSamples</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/offsetInSeconds">offsetInSeconds</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sourceId">sourceId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/state">state</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/source">source</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sourceOnContext:">sourceOnContext:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initOnContext:">initOnContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/play">play</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queueBuffer:">queueBuffer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queueBuffer:repeats:">queueBuffer:repeats:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queueBuffers:">queueBuffers:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queueBuffers:repeats:">queueBuffers:repeats:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/registerNotification:callback:userData:">registerNotification:callback:userData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unqueueBuffer:">unqueueBuffer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unqueueBuffers:">unqueueBuffers:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unregisterAllNotifications">unregisterAllNotifications</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unregisterNotification:">unregisterNotification:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="ALSource Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">ALSource Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/ALSoundSource.html">ALSoundSource</a><br /><a href="../Protocols/OALSuspendManager.html">OALSuspendManager</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">ALSource.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A <a href="#//api/name/source">source</a> represents an object that emits sound which can be heard by a listener.
+This <a href="#//api/name/source">source</a> can have position, velocity, and direction.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buffer">&nbsp;&nbsp;buffer</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buffersQueued">&nbsp;&nbsp;buffersQueued</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buffersProcessed">&nbsp;&nbsp;buffersProcessed</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/context">&nbsp;&nbsp;context</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/offsetInBytes">&nbsp;&nbsp;offsetInBytes</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/offsetInSamples">&nbsp;&nbsp;offsetInSamples</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/offsetInSeconds">&nbsp;&nbsp;offsetInSeconds</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sourceId">&nbsp;&nbsp;sourceId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/state">&nbsp;&nbsp;state</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/source">+&nbsp;source</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sourceOnContext:">+&nbsp;sourceOnContext:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initOnContext:">&ndash;&nbsp;initOnContext:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/play">&ndash;&nbsp;play</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queueBuffer:">&ndash;&nbsp;queueBuffer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queueBuffer:repeats:">&ndash;&nbsp;queueBuffer:repeats:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queueBuffers:">&ndash;&nbsp;queueBuffers:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queueBuffers:repeats:">&ndash;&nbsp;queueBuffers:repeats:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unqueueBuffer:">&ndash;&nbsp;unqueueBuffer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unqueueBuffers:">&ndash;&nbsp;unqueueBuffers:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/registerNotification:callback:userData:">&ndash;&nbsp;registerNotification:callback:userData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unregisterNotification:">&ndash;&nbsp;unregisterNotification:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unregisterAllNotifications">&ndash;&nbsp;unregisterAllNotifications</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/buffer" title="buffer"></a>
+	<h3 class="subsubtitle method-title">buffer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The sound buffer this <a href="#//api/name/source">source</a> is attached to (set to nil to detach the currently attached
+buffer).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) ALBuffer *buffer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buffersProcessed" title="buffersProcessed"></a>
+	<h3 class="subsubtitle method-title">buffersProcessed</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>How many of these buffers have been processed during playback.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) int buffersProcessed</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buffersQueued" title="buffersQueued"></a>
+	<h3 class="subsubtitle method-title">buffersQueued</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>How many buffers this <a href="#//api/name/source">source</a> has queued.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) int buffersQueued</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/context" title="context"></a>
+	<h3 class="subsubtitle method-title">context</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The context this <a href="#//api/name/source">source</a> was opened on.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, retain) ALContext *context</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/offsetInBytes" title="offsetInBytes"></a>
+	<h3 class="subsubtitle method-title">offsetInBytes</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The offset into the current <a href="#//api/name/buffer">buffer</a> (in bytes).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) float offsetInBytes</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/offsetInSamples" title="offsetInSamples"></a>
+	<h3 class="subsubtitle method-title">offsetInSamples</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The offset into the current <a href="#//api/name/buffer">buffer</a> (in samples).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) float offsetInSamples</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/offsetInSeconds" title="offsetInSeconds"></a>
+	<h3 class="subsubtitle method-title">offsetInSeconds</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The offset into the current <a href="#//api/name/buffer">buffer</a> (in seconds).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) float offsetInSeconds</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sourceId" title="sourceId"></a>
+	<h3 class="subsubtitle method-title">sourceId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>OpenAL&rsquo;s ID for this <a href="#//api/name/source">source</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) ALuint sourceId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/state" title="state"></a>
+	<h3 class="subsubtitle method-title">state</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The state of this <a href="#//api/name/source">source</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) int state</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/source" title="source"></a>
+	<h3 class="subsubtitle method-title">source</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Create a new source.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)source</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A new source.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sourceOnContext:" title="sourceOnContext:"></a>
+	<h3 class="subsubtitle method-title">sourceOnContext:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Create a new <a href="#//api/name/source">source</a> on the specified <a href="#//api/name/context">context</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)sourceOnContext:(ALContext *)<em>context</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>context</em></dt>
+			<dd><p>the <a href="#//api/name/context">context</a> to create the <a href="#//api/name/source">source</a> on.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A new <a href="#//api/name/source">source</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/initOnContext:" title="initOnContext:"></a>
+	<h3 class="subsubtitle method-title">initOnContext:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialize a new <a href="#//api/name/source">source</a> on the specified <a href="#//api/name/context">context</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initOnContext:(ALContext *)<em>context</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>context</em></dt>
+			<dd><p>the <a href="#//api/name/context">context</a> to create the <a href="#//api/name/source">source</a> on.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A new <a href="#//api/name/source">source</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/play" title="play"></a>
+	<h3 class="subsubtitle method-title">play</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Play the currently attached <a href="#//api/name/buffer">buffer</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id&lt;ALSoundSource&gt;)play</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the <a href="#//api/name/source">source</a> playing the sound, or nil if the sound could not be played.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queueBuffer:" title="queueBuffer:"></a>
+	<h3 class="subsubtitle method-title">queueBuffer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add a <a href="#//api/name/buffer">buffer</a> to the <a href="#//api/name/buffer">buffer</a> queue.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (bool)queueBuffer:(ALBuffer *)<em>buffer</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>buffer</em></dt>
+			<dd><p>the <a href="#//api/name/buffer">buffer</a> to add to the queue.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>TRUE if the operation was successful.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queueBuffer:repeats:" title="queueBuffer:repeats:"></a>
+	<h3 class="subsubtitle method-title">queueBuffer:repeats:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add a <a href="#//api/name/buffer">buffer</a> to the <a href="#//api/name/buffer">buffer</a> queue, repeating it multiple times.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (bool)queueBuffer:(ALBuffer *)<em>buffer</em> repeats:(NSUInteger)<em>repeats</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>buffer</em></dt>
+			<dd><p>the <a href="#//api/name/buffer">buffer</a> to add to the queue.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>repeats</em></dt>
+			<dd><p>the number of times to repeat the <a href="#//api/name/buffer">buffer</a> in the queue.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>TRUE if the operation was successful.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queueBuffers:" title="queueBuffers:"></a>
+	<h3 class="subsubtitle method-title">queueBuffers:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add buffers to the <a href="#//api/name/buffer">buffer</a> queue.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (bool)queueBuffers:(NSArray *)<em>buffers</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>buffers</em></dt>
+			<dd><p>the buffers to add to the queue.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>TRUE if the operation was successful.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queueBuffers:repeats:" title="queueBuffers:repeats:"></a>
+	<h3 class="subsubtitle method-title">queueBuffers:repeats:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add buffers to the <a href="#//api/name/buffer">buffer</a> queue, repeating it multiple times.
+The buffers will be played in order, repeating the specified number of times.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (bool)queueBuffers:(NSArray *)<em>buffers</em> repeats:(NSUInteger)<em>repeats</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>buffers</em></dt>
+			<dd><p>the buffers to add to the queue.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>repeats</em></dt>
+			<dd><p>the number of times to repeat the <a href="#//api/name/buffer">buffer</a> in the queue.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>TRUE if the operation was successful.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/registerNotification:callback:userData:" title="registerNotification:callback:userData:"></a>
+	<h3 class="subsubtitle method-title">registerNotification:callback:userData:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Register to receive notifications about an event on this <a href="#//api/name/source">source</a>. (iOS 5.0+)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)registerNotification:(ALuint)<em>notificationID</em> callback:(OALSourceNotificationCallback)<em>callback</em> userData:(void *)<em>userData</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>notificationID</em></dt>
+			<dd><p>The kind of notification to be informed of (see above).</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>callback</em></dt>
+			<dd><p>The block to call for notification.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>userData</em></dt>
+			<dd><p>a pointer that will be passed to the callback.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The following notification types are recognized:
+AL_SOURCE_STATE - Sent when a source&rsquo;s <a href="#//api/name/state">state</a> changes.
+AL_BUFFERS_PROCESSED - Sent when all buffers have been processed.
+AL_QUEUE_HAS_LOOPED - Sent when a looping <a href="#//api/name/source">source</a> has looped to it&rsquo;s start point.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unqueueBuffer:" title="unqueueBuffer:"></a>
+	<h3 class="subsubtitle method-title">unqueueBuffer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Remove a <a href="#//api/name/buffer">buffer</a> from the <a href="#//api/name/buffer">buffer</a> queue.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (bool)unqueueBuffer:(ALBuffer *)<em>buffer</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>buffer</em></dt>
+			<dd><p>the <a href="#//api/name/buffer">buffer</a> to remove from the queue.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>TRUE if the operation was successful.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unqueueBuffers:" title="unqueueBuffers:"></a>
+	<h3 class="subsubtitle method-title">unqueueBuffers:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Remove buffers from the <a href="#//api/name/buffer">buffer</a> queue</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (bool)unqueueBuffers:(NSArray *)<em>buffers</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>buffers</em></dt>
+			<dd><p>the buffers to remove from the queue.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>TRUE if the operation was successful.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unregisterAllNotifications" title="unregisterAllNotifications"></a>
+	<h3 class="subsubtitle method-title">unregisterAllNotifications</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unregister all notifications for this <a href="#//api/name/source">source</a>. (iOS 5.0+)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)unregisterAllNotifications</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unregisterNotification:" title="unregisterNotification:"></a>
+	<h3 class="subsubtitle method-title">unregisterNotification:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unregister notifications for a notification type on this <a href="#//api/name/source">source</a>. (iOS 5.0+)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)unregisterNotification:(ALuint)<em>notificationID</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>notificationID</em></dt>
+			<dd><p>The kind of notification to remove.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ALSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Kobold Tech. All rights reserved. (Last updated: 2013-10-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

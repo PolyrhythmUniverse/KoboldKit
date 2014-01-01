@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KKEmitterNode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KKEmitterNode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKEmitterNode.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KKEmitterNode/emitterWithFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKEmitterNode.h</DeclaredIn>
+			
+			<Declaration>+ (id)emitterWithFile:(NSString *)file</Declaration>
+			
+			
+			<Anchor>//api/name/emitterWithFile:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

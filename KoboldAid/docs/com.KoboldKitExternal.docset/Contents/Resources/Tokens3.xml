@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ALChannelSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ALChannelSource</TokenIdentifier>
+			<Abstract type="html">A Sound source composed of other sources.
+Property values are applied to all sources within the channel. &lt;br&gt;
+Sounds will get played by any free sources within this channel. &lt;br&gt;
+If all sources are busy when playback is requested, it will attempt to interrupt a source
+to free it for playback.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/setContext:</TokenIdentifier>
+			<Abstract type="html">This source&apos;s owning context.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, retain) ALContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/context</TokenIdentifier>
+			<Abstract type="html">This source&apos;s owning context.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, retain) ALContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALChannelSource/context</TokenIdentifier>
+			<Abstract type="html">This source&apos;s owning context.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, retain) ALContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/setSourcePool:</TokenIdentifier>
+			<Abstract type="html">All sources being used by this channel. Do not modify!</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, retain) ALSoundSourcePool *sourcePool</Declaration>
+			
+			
+			<Anchor>//api/name/sourcePool</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/sourcePool</TokenIdentifier>
+			<Abstract type="html">All sources being used by this channel. Do not modify!</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, retain) ALSoundSourcePool *sourcePool</Declaration>
+			
+			
+			<Anchor>//api/name/sourcePool</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALChannelSource/sourcePool</TokenIdentifier>
+			<Abstract type="html">All sources being used by this channel. Do not modify!</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, retain) ALSoundSourcePool *sourcePool</Declaration>
+			
+			
+			<Anchor>//api/name/sourcePool</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/setReservedSources:</TokenIdentifier>
+			<Abstract type="html">The number of sources reserved by this channel.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) int reservedSources</Declaration>
+			
+			
+			<Anchor>//api/name/reservedSources</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/reservedSources</TokenIdentifier>
+			<Abstract type="html">The number of sources reserved by this channel.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) int reservedSources</Declaration>
+			
+			
+			<Anchor>//api/name/reservedSources</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALChannelSource/reservedSources</TokenIdentifier>
+			<Abstract type="html">The number of sources reserved by this channel.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) int reservedSources</Declaration>
+			
+			
+			<Anchor>//api/name/reservedSources</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ALChannelSource/channelWithSources:</TokenIdentifier>
+			<Abstract type="html">Create a channel with a number of sources.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>+ (id)channelWithSources:(int)reservedSources</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>reservedSources</Name>
+					<Abstract type="html">the number of sources to reserve for this channel.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new channel.</Abstract></ReturnValue>
+			<Anchor>//api/name/channelWithSources:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/initWithSources:</TokenIdentifier>
+			<Abstract type="html">Initialize a channel with a number of sources.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSources:(int)reservedSources</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>reservedSources</Name>
+					<Abstract type="html">the number of sources to reserve for this channel.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The initialized channel.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithSources:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/setDefaultsFromSource:</TokenIdentifier>
+			<Abstract type="html">Set this channel&apos;s default values from those in the specified source.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>- (void)setDefaultsFromSource:(id&lt;ALSoundSource&gt;)source</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>source</Name>
+					<Abstract type="html">the source to set default values from.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDefaultsFromSource:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/resetToDefault</TokenIdentifier>
+			<Abstract type="html">Reset all sources in this channel to their default state.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>- (void)resetToDefault</Declaration>
+			
+			
+			<Anchor>//api/name/resetToDefault</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/addSource:</TokenIdentifier>
+			<Abstract type="html">Add a source to this channel.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>- (void)addSource:(id&lt;ALSoundSource&gt;)source</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>source</Name>
+					<Abstract type="html">The source to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSource:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/removeSource:</TokenIdentifier>
+			<Abstract type="html">Remove a source from the channel.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>- (id&lt;ALSoundSource&gt;)removeSource:(id&lt;ALSoundSource&gt;)source</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>source</Name>
+					<Abstract type="html">The source to remove. If nil, remove any source.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The source that was removed.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeSource:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/splitChannelWithSources:</TokenIdentifier>
+			<Abstract type="html">Split the specified number of sources from this channel, creating a new
+channel.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>- (ALChannelSource *)splitChannelWithSources:(int)numSources</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>numSources</Name>
+					<Abstract type="html">The number of sources to split off</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new channel with the split-off sources.</Abstract></ReturnValue>
+			<Anchor>//api/name/splitChannelWithSources:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/addChannel:</TokenIdentifier>
+			<Abstract type="html">Absorb another channel&apos;s sources into this one. All of the channel&apos;s sources
+will be moved into this channel.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>- (void)addChannel:(ALChannelSource *)channel</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>channel</Name>
+					<Abstract type="html">The channel to absorb sources from.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addChannel:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/clearUnusedBuffers</TokenIdentifier>
+			<Abstract type="html">Set all buffers in all non-playing sources to nil.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)clearUnusedBuffers</Declaration>
+			
+			<ReturnValue><Abstract type="html">A list of buffers that were cleared.</Abstract></ReturnValue>
+			<Anchor>//api/name/clearUnusedBuffers</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALChannelSource/removeBuffersNamed:</TokenIdentifier>
+			<Abstract type="html">Remove all instances of the specified buffer.</Abstract>
+			<DeclaredIn>ALChannelSource.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)removeBuffersNamed:(NSString *)name</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The name of the buffer.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NO if any of the matching buffers are currently being played.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeBuffersNamed:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

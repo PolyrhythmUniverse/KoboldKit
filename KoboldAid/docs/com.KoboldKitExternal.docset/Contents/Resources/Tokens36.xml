@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/OALPropertyAction+Audio.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/OALPropertyAction(Audio)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAudioActions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALPropertyAction/pitchActionWithDuration:endValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAudioActions.h</DeclaredIn>
+			
+			<Declaration>+ (OALPropertyAction *)pitchActionWithDuration:(float)duration endValue:(float)endValue</Declaration>
+			
+			
+			<Anchor>//api/name/pitchActionWithDuration:endValue:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALPropertyAction/pitchActionWithDuration:startValue:endValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAudioActions.h</DeclaredIn>
+			
+			<Declaration>+ (OALPropertyAction *)pitchActionWithDuration:(float)duration startValue:(float)startValue endValue:(float)endValue</Declaration>
+			
+			
+			<Anchor>//api/name/pitchActionWithDuration:startValue:endValue:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALPropertyAction/panActionWithDuration:endValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAudioActions.h</DeclaredIn>
+			
+			<Declaration>+ (OALPropertyAction *)panActionWithDuration:(float)duration endValue:(float)endValue</Declaration>
+			
+			
+			<Anchor>//api/name/panActionWithDuration:endValue:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALPropertyAction/panActionWithDuration:startValue:endValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAudioActions.h</DeclaredIn>
+			
+			<Declaration>+ (OALPropertyAction *)panActionWithDuration:(float)duration startValue:(float)startValue endValue:(float)endValue</Declaration>
+			
+			
+			<Anchor>//api/name/panActionWithDuration:startValue:endValue:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALPropertyAction/gainActionWithDuration:endValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAudioActions.h</DeclaredIn>
+			
+			<Declaration>+ (OALPropertyAction *)gainActionWithDuration:(float)duration endValue:(float)endValue</Declaration>
+			
+			
+			<Anchor>//api/name/gainActionWithDuration:endValue:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OALPropertyAction/gainActionWithDuration:startValue:endValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OALAudioActions.h</DeclaredIn>
+			
+			<Declaration>+ (OALPropertyAction *)gainActionWithDuration:(float)duration startValue:(float)startValue endValue:(float)endValue</Declaration>
+			
+			
+			<Anchor>//api/name/gainActionWithDuration:startValue:endValue:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KKNotifyOnContactBehavior.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KKNotifyOnContactBehavior</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKNotifyOnContactBehavior.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKNotifyOnContactBehavior/setNotification:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKNotifyOnContactBehavior.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, copy) NSString *notification</Declaration>
+			
+			
+			<Anchor>//api/name/notification</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KKNotifyOnContactBehavior/notification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKNotifyOnContactBehavior.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, copy) NSString *notification</Declaration>
+			
+			
+			<Anchor>//api/name/notification</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KKNotifyOnContactBehavior/notification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KKNotifyOnContactBehavior.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, copy) NSString *notification</Declaration>
+			
+			
+			<Anchor>//api/name/notification</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
